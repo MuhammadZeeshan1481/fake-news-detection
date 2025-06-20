@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# Virtual env
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database
+backend/database/predictions.db
+
+# Model checkpoints/binaries (if large and can be redownloaded)
+*.bin
+
+# Data files (if big or sensitive)
+data/
+*.zip
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit logs
+.streamlit/
+
+# Environment files
+.env
